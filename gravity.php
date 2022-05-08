@@ -29,7 +29,7 @@ function techiepress_after_submission_2( $entry, $form ) {
             'url' => $entry[7],
         ];
 
-        $url = 'https://crm.mividahomes.com/api/enquiries';
+        $url = 'insert-url-here';
 
         $args = [
             'method' => 'POST',
@@ -62,7 +62,7 @@ function techiepress_after_submission_1( $entry, $form ) {
            
         ];
 
-        $url = 'https://crm.mividahomes.com/api/popupemail';
+        $url = 'insert-end-point-here';
 
         $args = [
             'method' => 'POST',
