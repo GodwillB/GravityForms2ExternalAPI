@@ -17,7 +17,7 @@ add_action( 'gform_after_submission_2', 'techiepress_after_submission_2', 10, 2 
 
 function techiepress_after_submission_2( $entry, $form ) {
 
-  
+  //match API fields with Gravity Forms ID
 
     if ( $entry['form_id'] == 2 ) {
 
